@@ -1,0 +1,34 @@
+{
+  "_comment": "pi-web-ui 技能市场的聚合源；每个 repo 的技能目录会被平铺到 skills/<prefix>-<skill>/",
+  "market_repo": "REPLACE_WITH_OWNER/pi-skills-hub",
+  "libraries": [
+    {
+      "prefix": "superpowers",
+      "repo": "obra/superpowers",
+      "subdir": "skills",
+      "label": "工程开发 / Superpowers",
+      "note": "系统排错、完成前验证、代码审查、TDD、规划"
+    },
+    {
+      "prefix": "anthropic",
+      "repo": "anthropics/skills",
+      "subdir": "skills",
+      "label": "文档与组会 / Anthropic Skills",
+      "note": "PDF、PPTX、DOCX、XLSX、skill-creator"
+    },
+    {
+      "prefix": "vercel",
+      "repo": "vercel-labs/agent-skills",
+      "subdir": "skills",
+      "label": "实验平台网页 / Vercel Agent Skills",
+      "note": "React 性能、界面规范、部署"
+    },
+    {
+      "prefix": "k-dense",
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "subdir": "skills",
+      "label": "RL 与科研 / K-Dense",
+      "note": "Stable Baselines3、文献综述、科研绘图等 177 个"
+    }
+  ]
+}
