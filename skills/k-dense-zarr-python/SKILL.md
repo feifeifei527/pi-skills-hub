@@ -1,5 +1,5 @@
 ---
-name: zarr-python
+name: k-dense-zarr-python
 description: 用 Zarr-Python 3 存储与查询分块多维科学数组，支持编解码器、分片、S3 与 GCS 存储及 NumPy 集成
 allowed-tools: Read Write Edit Bash
 license: MIT license

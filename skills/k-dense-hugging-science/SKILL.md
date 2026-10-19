@@ -1,5 +1,5 @@
 ---
-name: hugging-science
+name: k-dense-hugging-science
 description: 通过 Hugging Science 目录发现并评估科研数据集、模型与方法文章，适用于筛选各领域机器学习资源
 compatibility: Requires Python 3.10+ and network access for the standard-library catalog fetcher. Resource use needs the matching scientific runtime; optional HF_TOKEN for gated access.
 metadata:

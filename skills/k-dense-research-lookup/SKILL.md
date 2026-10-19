@@ -1,5 +1,5 @@
 ---
-name: research-lookup
+name: k-dense-research-lookup
 description: 为论文或研究简报系统检索文献与证据，汇总参考文献、背景资料与竞争性发现，生成可追溯研究资料包
 license: MIT license
 compatibility: Requires Python 3.10+ and network access; targets parallel-web-tools CLI 0.9.3 for Search, Extract, and Research. Explicit Chat requires requests and PARALLEL_API_KEY; optional Perplexity through openrouter.ai requires requests and OPENROUTER_API_KEY.

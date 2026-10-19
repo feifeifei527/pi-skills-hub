@@ -1,5 +1,5 @@
 ---
-name: fluidsim
+name: k-dense-fluidsim
 description: 规划、配置并分析有界的 FluidSim 计算流体仿真，含数值有效性与 HPC 安全检查，适用于求解器选型
 license: MIT
 compatibility: Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 0.9.0, fluidfft 0.4.5, and pyFFTW 0.15.1. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.

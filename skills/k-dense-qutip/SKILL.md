@@ -1,5 +1,5 @@
 ---
-name: qutip
+name: k-dense-qutip
 description: 用 QuTiP 5 模拟并审查封闭与开放量子系统，涵盖确定性演化、轨迹、稳态、谱分析与相空间方法
 license: MIT
 compatibility: Requires Python 3.11+, uv, and qutip==5.3.1 for executable simulations. Bundled planners and all script help run with the Python standard library; plotting requires the graphics extra. No network service or credentials are used.

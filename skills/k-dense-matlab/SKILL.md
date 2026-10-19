@@ -1,5 +1,5 @@
 ---
-name: matlab
+name: k-dense-matlab
 description: 编写、审阅与迁移 MATLAB 或 GNU Octave 数值代码，覆盖数组、时间数据与绘图测试
 license: MIT
 compatibility: >-

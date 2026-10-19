@@ -1,5 +1,5 @@
 ---
-name: test-driven-development
+name: superpowers-test-driven-development
 description: 先写失败测试再写实现代码，让每个新功能与缺陷修复都有 TDD 覆盖
 ---
 

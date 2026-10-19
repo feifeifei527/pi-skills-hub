@@ -1,5 +1,5 @@
 ---
-name: internal-comms
+name: anthropic-internal-comms
 description: 按公司惯用格式撰写状态汇报、领导层更新、FAQ 与事故复盘等内部沟通材料
 license: Complete terms in LICENSE.txt
 ---

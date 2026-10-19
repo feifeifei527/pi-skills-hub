@@ -1,5 +1,5 @@
 ---
-name: markdown-mermaid-writing
+name: k-dense-markdown-mermaid-writing
 description: 撰写科学 Markdown 文档与 Mermaid 图，提供语法参考、模板与渲染版本检查
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0

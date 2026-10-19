@@ -1,5 +1,5 @@
 ---
-name: systematic-debugging
+name: superpowers-systematic-debugging
 description: 遇到缺陷、测试失败或异常行为时先系统定位根因，再提出修复方案
 ---
 

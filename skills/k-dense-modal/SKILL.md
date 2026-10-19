@@ -1,5 +1,5 @@
 ---
-name: modal
+name: k-dense-modal
 description: 在 Modal 无服务器平台按需运行 Python 与 GPU 任务，部署模型、接口与批处理作业
 license: Apache-2.0
 compatibility: Requires Python 3.10-3.14 and modal 1.6.0. Cloud execution needs a Modal account, authentication and network access; GPU use needs a payment method. Workload dependencies belong in their container Images.

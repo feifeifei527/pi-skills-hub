@@ -1,5 +1,5 @@
 ---
-name: research-grants
+name: k-dense-research-grants
 description: 协助撰写与评审 NSF、NIH、DOE 等科研基金申请，规划研究目标、评审要点、预算、合规矩阵与重新提交
 allowed-tools: Read Write Edit Bash
 license: MIT license

@@ -1,5 +1,5 @@
 ---
-name: what-if-oracle
+name: k-dense-what-if-oracle
 description: 为科研规划与实验应变做结构化情景分析，探索有利、不利、极端与二阶情形并给出决策触发条件
 license: CC BY-NC-SA 4.0
 metadata:

@@ -1,5 +1,5 @@
 ---
-name: datamol
+name: k-dense-datamol
 description: 用 Datamol 简化 RDKit 常用操作，含 SMILES 解析、标准化、描述符与三维构象生成，适用于常规药物发现
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash

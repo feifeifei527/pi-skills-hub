@@ -1,5 +1,5 @@
 ---
-name: scientific-critical-thinking
+name: k-dense-scientific-critical-thinking
 description: 评估科学主张与证据质量，检查实验设计、偏倚混杂与统计解释，并应用 GRADE 等证据分级框架
 allowed-tools: Read Write Edit
 license: MIT license

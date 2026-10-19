@@ -1,5 +1,5 @@
 ---
-name: scientific-writing
+name: k-dense-scientific-writing
 description: 撰写、修订与审校科研论文或报告，管理证据出处、报告规范、作者责任与投稿前的一致性检查
 license: MIT
 compatibility: Requires Python 3.11+ only for optional dependency-free local CLIs; core guidance is platform-neutral. Bundled tools are offline and require no API keys.

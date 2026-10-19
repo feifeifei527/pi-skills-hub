@@ -1,5 +1,5 @@
 ---
-name: hypothesis-generation
+name: k-dense-hypothesis-generation
 description: 把观察或初步发现转化为有证据边界的可检验假设、竞争解释与预注册分析计划
 license: MIT
 compatibility: Python 3.11+ standard library. Bundled CLIs are deterministic and local-only; they accept bounded JSON, CSV, or Markdown and require no network, credentials, models, image services, or external packages.

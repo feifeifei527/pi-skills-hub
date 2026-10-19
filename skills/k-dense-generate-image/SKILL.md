@@ -1,5 +1,5 @@
 ---
-name: generate-image
+name: k-dense-generate-image
 description: 通过 OpenRouter 图像接口生成或编辑图片，适用于照片、插画、概念图与标志设计，技术示意图另用专技
 license: MIT
 compatibility: Requires Python 3.9+ and network access to openrouter.ai. The bundled script uses only the standard library. Image generation requires the OPENROUTER_API_KEY credential and bills per request; listing models, inspecting a model, and --dry-run do not. Targets the OpenRouter Image API (POST /api/v1/images) documentation and public discovery reviewed on 2026-09-30.

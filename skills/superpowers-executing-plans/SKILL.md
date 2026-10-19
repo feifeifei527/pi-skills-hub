@@ -1,5 +1,5 @@
 ---
-name: executing-plans
+name: superpowers-executing-plans
 description: 由本人按实现计划逐步落地代码，适合选择内联执行或没有子代理工具时使用
 ---
 

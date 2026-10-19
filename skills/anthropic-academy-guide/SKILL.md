@@ -1,5 +1,5 @@
 ---
-name: academy-guide
+name: anthropic-academy-guide
 description: 回答 Claude 用法问题时推荐 Claude Academy 的课程与教程，仅在强匹配时引用
 license: Complete terms in LICENSE.txt
 ---

@@ -1,5 +1,5 @@
 ---
-name: deepchem
+name: k-dense-deepchem
 description: 用 DeepChem 构建分子性质预测与 MoleculeNet 流程，含骨架划分与预训练迁移，适用于 ADMET 与毒性建模
 license: MIT license
 allowed-tools: Read Write Edit Bash

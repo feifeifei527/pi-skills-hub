@@ -1,5 +1,5 @@
 ---
-name: scholar-evaluation
+name: k-dense-scholar-evaluation
 description: 对学术成果做定性优先、证据可追溯的发展性评审，并可审计低风险研究评估量表，不作人员排名
 license: MIT
 compatibility: Requires Python 3.11+ for optional bundled standard-library CLIs. All tooling is local JSON/CSV processing with no network, credentials, external models, or subprocesses.

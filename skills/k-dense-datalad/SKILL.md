@@ -1,5 +1,5 @@
 ---
-name: datalad
+name: k-dense-datalad
 description: 用 DataLad 与 git-annex 获取、版本化并发布科研数据集，记录可重跑来源，适用于 OpenNeuro 与 DANDI 数据
 compatibility: Requires Python 3.10+, DataLad 1.6.5, Git, and git-annex 10.x. Tested with git-annex 10.20260901 and datalad-container 1.2.6 on macOS ARM64. Containers additionally require Singularity, Apptainer, or Docker. Remote data access needs network access and may need provider credentials. Local filesystem workflows work offline.
 license: MIT

@@ -1,5 +1,5 @@
 ---
-name: writing-guidelines
+name: vercel-writing-guidelines
 description: 按写作规范审查文档与文案，检查语气、清晰度与术语一致性
 metadata:
   author: vercel

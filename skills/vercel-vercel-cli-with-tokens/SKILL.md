@@ -1,5 +1,5 @@
 ---
-name: vercel-cli-with-tokens
+name: vercel-vercel-cli-with-tokens
 description: 用访问令牌而非交互登录操作 Vercel CLI，完成部署与环境变量配置
 metadata:
   author: vercel

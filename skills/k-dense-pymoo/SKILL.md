@@ -1,5 +1,5 @@
 ---
-name: pymoo
+name: k-dense-pymoo
 description: 用 pymoo 求解并验证单目标、多目标与超多目标优化，涵盖 NSGA-II、约束处理、Pareto 前沿与基准测试
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash

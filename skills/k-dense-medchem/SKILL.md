@@ -1,5 +1,5 @@
 ---
-name: medchem
+name: k-dense-medchem
 description: 用类药性规则、结构警示目录与复杂度指标筛选化合物库，支持 medchem 查询语言
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash

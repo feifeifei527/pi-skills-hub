@@ -1,5 +1,5 @@
 ---
-name: pptx-posters
+name: k-dense-pptx-posters
 description: 制作并审阅可编辑的 PowerPoint 学术海报，检查尺寸、打印、无障碍与包安全
 license: MIT
 compatibility: Requires Python 3.10+, uv, and exact generation pins python-pptx 1.0.2, Pillow 12.3.0, and lxml 6.1.3. Validation and PPTX ZIP/XML inspection are local and network-free; final PowerPoint, accessibility, PDF, printer, and author review are manual.

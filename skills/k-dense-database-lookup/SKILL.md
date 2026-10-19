@@ -1,5 +1,5 @@
 ---
-name: database-lookup
+name: k-dense-database-lookup
 description: 按文档化端点、过滤与分页查询公开数据库接口并保留来源，适用于需可复现取证的数据库事实检索
 allowed-tools: Read Bash
 license: MIT

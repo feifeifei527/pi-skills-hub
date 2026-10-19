@@ -1,5 +1,5 @@
 ---
-name: diagnosing-superpowers
+name: superpowers-diagnosing-superpowers
 description: 排查 superpowers 会话失败原因，定位重复劳动、忽略计划或技能未触发并生成缺陷报告
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: experimental-design
+name: k-dense-experimental-design
 description: 在收集数据前设计实验，含随机化、区组、因子与响应面设计，适用于避免混杂并安排处理组合
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python >=3.12 with numpy, pandas, and pydoe 1.5.0 (DOE matrices). Network access is needed only to install packages; no credentials are required.

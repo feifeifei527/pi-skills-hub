@@ -1,5 +1,5 @@
 ---
-name: writing-plans
+name: superpowers-writing-plans
 description: 拿到需求或多步任务规格后先写实现计划，再开始改动代码
 ---
 

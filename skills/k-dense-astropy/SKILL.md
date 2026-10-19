@@ -1,5 +1,5 @@
 ---
-name: astropy
+name: k-dense-astropy
 description: 用 Astropy 处理天文数据，含单位坐标、FITS 读写、时间系统、WCS 与宇宙学计算，适用于天文分析代码
 license: BSD-3-Clause license
 compatibility: Requires Python 3.11+, Astropy 8.0.1 and NumPy 2+; SciPy for cosmology, matching and fitting (uv for installation). Some features (object name resolution, site lookups, remote FITS reads, IERS updates) need network access.

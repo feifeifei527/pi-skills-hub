@@ -1,5 +1,5 @@
 ---
-name: latex-posters
+name: k-dense-latex-posters
 description: 用 LaTeX 的 beamerposter、tikzposter 或 baposter 排版多栏学术会议海报，集成图表并预检 PDF
 allowed-tools: Read Write Edit Bash
 compatibility: Requires a LaTeX distribution with the selected poster class and Poppler for PDF checks. Optional AI schematics require Python 3.10+, requests, network access, and OPENROUTER_API_KEY. baposter needs a separately supplied class file.

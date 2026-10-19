@@ -1,5 +1,5 @@
 ---
-name: parallel-web
+name: k-dense-parallel-web
 description: 用 Parallel CLI 做网页搜索、链接抽取、深度研究与实体发现，适合需要最新网络证据
 license: MIT
 compatibility: Requires parallel-cli 0.9.3, internet access, and a Parallel API key or CLI login. Python package installation requires Python 3.10+.

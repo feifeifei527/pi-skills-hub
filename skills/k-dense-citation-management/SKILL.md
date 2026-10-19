@@ -1,5 +1,5 @@
 ---
-name: citation-management
+name: k-dense-citation-management
 description: 检索 OpenAlex、PubMed 与 Google Scholar 论文，核对元数据并生成规范 BibTeX，适用于引文校验与 DOI 转换
 allowed-tools: Read Write Edit Bash WebSearch WebFetch
 license: MIT License

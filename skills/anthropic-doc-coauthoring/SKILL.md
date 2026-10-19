@@ -1,5 +1,5 @@
 ---
-name: doc-coauthoring
+name: anthropic-doc-coauthoring
 description: 按结构化流程与用户共同撰写文档、提案与技术规格，并验证成稿对读者可用
 ---
 

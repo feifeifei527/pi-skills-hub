@@ -1,5 +1,5 @@
 ---
-name: web-artifacts-builder
+name: anthropic-web-artifacts-builder
 description: 用 React、Tailwind CSS 与 shadcn/ui 构建多组件 HTML 产物，适合需要状态管理、路由与组件库的复杂场景
 license: Complete terms in LICENSE.txt
 ---

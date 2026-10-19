@@ -1,5 +1,5 @@
 ---
-name: scientific-slides
+name: k-dense-scientific-slides
 description: 制作学术报告幻灯片，提供结构组织、版式模板、时间分配与视觉校验，支持 PowerPoint 与 LaTeX Beamer
 allowed-tools: Read Write Edit Bash
 license: MIT license

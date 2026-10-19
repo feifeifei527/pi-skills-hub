@@ -1,5 +1,5 @@
 ---
-name: vaex
+name: k-dense-vaex
 description: 用 Vaex 处理超内存大型表格数据，支持表达式、过滤视图、流式统计、分箱可视化与 HDF5、Parquet 转换
 allowed-tools: Read Write Edit Bash Grep Glob
 license: MIT license

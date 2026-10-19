@@ -1,5 +1,5 @@
 ---
-name: peer-review
+name: k-dense-peer-review
 description: 起草有证据边界的同行评议意见与结构化稿件评估，覆盖方法、统计与可复现性检查
 license: MIT
 compatibility: Python 3.11+ standard library. Bundled CLIs are deterministic and local-only; they accept bounded JSON, CSV, or Markdown and make no network, model, image, or external-service calls.

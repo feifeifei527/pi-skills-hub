@@ -1,5 +1,5 @@
 ---
-name: sympy
+name: k-dense-sympy
 description: 用 SymPy 做精确符号运算，涵盖代数、微积分、方程求解、符号线性代数与 LaTeX 代码生成
 license: https://github.com/sympy/sympy/blob/master/LICENSE
 allowed-tools: Read Write Edit Bash

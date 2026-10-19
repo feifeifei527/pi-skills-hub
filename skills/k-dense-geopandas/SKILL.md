@@ -1,5 +1,5 @@
 ---
-name: geopandas
+name: k-dense-geopandas
 description: 为直接使用 GeoPandas 的 Python 流程提供指引与本地审计，适用于空间运算与矢量数据读写检查
 license: MIT
 compatibility: Requires Python 3.12+ and uv for the tested stack. Bundled CLIs are local-only; runtime analysis requires the pinned GeoPandas stack below.

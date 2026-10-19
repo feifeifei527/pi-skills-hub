@@ -1,5 +1,5 @@
 ---
-name: statistical-power
+name: k-dense-statistical-power
 description: 计算研究所需样本量与统计功效，支持先验功效分析、最小可检测效应、功效曲线与复杂设计的模拟
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python >=3.12 with statsmodels, scipy, numpy, pandas, and matplotlib. Optional comparison uses pingouin; survival extensions use lifelines (requires pandas<3). Installation needs network access unless packages are cached. Calculations run locally without credentials.

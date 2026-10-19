@@ -1,5 +1,5 @@
 ---
-name: exploratory-data-analysis
+name: k-dense-exploratory-data-analysis
 description: 对受支持的科研文件做有界本地探索分析，含缺失与泄漏审计、离群敏感性检查及报告骨架
 license: MIT
 compatibility: Bundled core CLIs require Python 3.11+ and are local/network-free; the complete pinned optional snapshot requires Python 3.12+, uv, and format-specific libraries listed below.

@@ -1,5 +1,5 @@
 ---
-name: market-research-reports
+name: k-dense-market-research-reports
 description: 撰写可溯源的市场研究报告，含市场定义、竞争格局、TAM/SAM/SOM 与敏感性分析
 license: MIT
 compatibility: Python 3.11+ standard library for optional offline CLIs. The optional LaTeX template uses XeLaTeX or LuaLaTeX. Online research requires user-approved network access and source-specific terms; bundled scripts make no network, LLM, or image calls.

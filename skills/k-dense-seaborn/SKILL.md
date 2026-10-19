@@ -1,5 +1,5 @@
 ---
-name: seaborn
+name: k-dense-seaborn
 description: 用 Seaborn 结合 Pandas 绘制分布、关系、分类比较、回归与热力图等统计图形，适合静态探索性可视化
 license: BSD-3-Clause license
 allowed-tools: Read Write Edit Bash

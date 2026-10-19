@@ -1,5 +1,5 @@
 ---
-name: hypogenic
+name: k-dense-hypogenic
 description: 规划并审计 HypoGeniC 与 HypoRefine 的标注文本假设生成用法，适用于该包配置与假设库管理
 license: MIT
 compatibility: Requires Python 3.10+ and uv for the pinned upstream package. Bundled local audit tools use only the Python standard library for JSON; YAML input requires exactly PyYAML 6.0.3. Actual HypoGeniC runs may require a separately approved LLM provider, credentials, Redis, local model resources, and network access.

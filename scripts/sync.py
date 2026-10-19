@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -48,6 +49,28 @@ def fetch_repo(repo: str, dest: Path) -> Path:
     if len(children) == 1 and children[0].is_dir():
         return children[0]
     return root
+
+
+def normalize_name(skill_md: Path, skill_id: str) -> None:
+    """把 frontmatter 的 name 改成技能 id（= 目录名）。
+
+    pi-web-ui 的市场用「目录 id」判断是否已安装，而已安装列表用的是
+    frontmatter 的 name；两者不一致时，装完卡片也不会变成「已安装」。
+    """
+    text = skill_md.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        return
+    end = text.find("\n---", 3)
+    if end == -1:
+        return
+    head, body = text[3:end], text[end:]
+    if re.search(r"^name:\s*" + re.escape(skill_id) + r"\s*$", head, re.M):
+        return
+    if re.search(r"^name:.*$", head, re.M):
+        head = re.sub(r"^name:.*$", f"name: {skill_id}", head, count=1, flags=re.M)
+    else:
+        head = f"\nname: {skill_id}" + head
+    skill_md.write_text("---" + head + body, encoding="utf-8")
 
 
 def copy_skill(src: Path, dst: Path, skipped: list[str]) -> None:
@@ -104,6 +127,7 @@ def rebuild(offline: bool, install_local: bool) -> int:
             if (new_skills / skill_id).exists():
                 sys.exit(f"技能 id 冲突: {skill_id}")
             copy_skill(skills_dir / name, new_skills / skill_id, skipped)
+            normalize_name(new_skills / skill_id / "SKILL.md", skill_id)
             ids.append(skill_id)
         manifest[prefix] = ids
         print(f"  → {len(ids)} 个技能")

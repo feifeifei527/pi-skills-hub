@@ -1,5 +1,5 @@
 ---
-name: dhdna-profiler
+name: k-dense-dhdna-profiler
 description: 按 DHDNA 框架分析文本中的推理与写作模式并输出探索性画像，仅描述样本证据而非心理特质
 allowed-tools: Read Write
 license: MIT license

@@ -1,5 +1,5 @@
 ---
-name: get-available-resources
+name: k-dense-get-available-resources
 description: 探测主机与容器的 CPU、内存、磁盘与加速器限制并输出脱敏快照，供资源敏感任务规划使用
 license: MIT
 compatibility: Python 3.11+ on Linux, macOS, or Windows; standard library by default, optional psutil 7.2.2; accelerator management CLIs are optional read-only probes.

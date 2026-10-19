@@ -1,5 +1,5 @@
 ---
-name: pytorch-lightning
+name: k-dense-pytorch-lightning
 description: 用 PyTorch Lightning 将 PyTorch 代码整理为 LightningModule，配置多 GPU 训练、数据流程、回调与日志
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0 license

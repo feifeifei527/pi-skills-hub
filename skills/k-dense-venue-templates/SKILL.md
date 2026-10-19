@@ -1,5 +1,5 @@
 ---
-name: venue-templates
+name: k-dense-venue-templates
 description: 按期刊、会议或基金要求准备论文、海报与申请文档，提供官方模板选择、页数与匿名规则检查
 license: MIT license
 compatibility: Requires Python 3.11+ for helper scripts; LaTeX and Poppler command-line tools are optional for compilation and PDF inspection. Needs network access to verify current venue instructions.

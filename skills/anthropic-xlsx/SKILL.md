@@ -1,5 +1,5 @@
 ---
-name: xlsx
+name: anthropic-xlsx
 description: 读取、编辑与生成 XLSX、CSV 等表格文件，处理公式、格式、图表与脏数据清理
 license: Proprietary. LICENSE.txt has complete terms
 ---

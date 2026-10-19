@@ -1,5 +1,5 @@
 ---
-name: literature-review
+name: k-dense-literature-review
 description: 基于 PubMed、arXiv、bioRxiv 等来源开展系统综述、可复现检索与引用核查
 allowed-tools: Read Write Edit Bash
 license: MIT license

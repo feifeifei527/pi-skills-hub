@@ -1,5 +1,5 @@
 ---
-name: usfiscaldata
+name: k-dense-usfiscaldata
 description: 查询美国财政部 Fiscal Data REST 接口，获取国债、每日与月度报表、国债拍卖、利率与政府收支数据
 license: MIT
 compatibility: Requires Python 3.10+ with requests and pandas for Python examples; R with httr and jsonlite for R examples. Requires network access; no credentials.

@@ -1,5 +1,5 @@
 ---
-name: frontend-design
+name: anthropic-frontend-design
 description: 为新界面或改版提供有辨识度的视觉方向、字体与排版取舍，避免模板感
 license: Complete terms in LICENSE.txt
 ---

@@ -1,5 +1,5 @@
 ---
-name: marine-carbonate-chemistry
+name: k-dense-marine-carbonate-chemistry
 description: 用 PyCO2SYS 计算海水碳酸盐体系，涵盖碱度、DIC、pH、饱和度与不确定度传播
 license: MIT
 compatibility: Requires Python 3.13 with PyCO2SYS 1.8.3.4 and NumPy. Network access is needed only to install packages or obtain external data; bundled calculations run locally without credentials.

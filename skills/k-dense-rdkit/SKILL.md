@@ -1,5 +1,5 @@
 ---
-name: rdkit
+name: k-dense-rdkit
 description: 用 RDKit 做细粒度化学信息学控制，涵盖 SMILES 解析、描述符、指纹、子结构检索、2D/3D 生成与反应
 license: BSD-3-Clause license
 allowed-tools: Read Write Edit Bash

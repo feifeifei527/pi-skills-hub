@@ -1,5 +1,5 @@
 ---
-name: pufferlib
+name: k-dense-pufferlib
 description: 针对 PufferLib 强化学习环境、向量化与 PuffeRL 训练提供版本适配指导与检查点审阅
 license: MIT
 compatibility: Bundled CLIs require Python 3.10+ (standard library only). PufferLib 5.0 requires a native C/CUDA toolchain; CPU builds support evaluation, not training. PyPI 3.0.0 declares Python >=3.9 and needs a native source build with NumPy <2 and Gymnasium <=0.29.1. Native dependencies and network access are needed for installation; bundled checks require neither.

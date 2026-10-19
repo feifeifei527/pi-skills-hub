@@ -1,5 +1,5 @@
 ---
-name: optimize-for-gpu
+name: k-dense-optimize-for-gpu
 description: 把 CPU 瓶颈的科学 Python 代码迁移到 NVIDIA GPU，并验证结果正确且确实加速
 license: MIT
 compatibility: Requires an NVIDIA CUDA-capable GPU for GPU execution. RAPIDS 26.08 requires Python 3.11-3.14 on Linux or WSL2, NumPy 2, CuPy 14, and compatible CUDA 12 or 13 wheels. Package installation needs network access.

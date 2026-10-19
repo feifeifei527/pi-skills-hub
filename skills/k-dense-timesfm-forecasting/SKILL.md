@@ -1,5 +1,5 @@
 ---
-name: timesfm-forecasting
+name: k-dense-timesfm-forecasting
 description: 用 Google TimesFM 做零样本时间序列预测，涵盖 CSV 准备、分位数预测、协变量与留出集评估
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0 license

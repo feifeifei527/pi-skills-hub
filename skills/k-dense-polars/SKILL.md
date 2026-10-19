@@ -1,5 +1,5 @@
 ---
-name: polars
+name: k-dense-polars
 description: 用 Polars 高性能 DataFrame 做 ETL 与分析，支持惰性优化、流式处理与 pandas 迁移
 license: https://github.com/pola-rs/polars/blob/main/LICENSE
 allowed-tools: Read

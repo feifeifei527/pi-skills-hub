@@ -1,5 +1,5 @@
 ---
-name: bgpt-paper-search
+name: k-dense-bgpt-paper-search
 description: 检索 BGPT 论文并按论断提取全文证据，含实验、统计、范围与局限，适用于文献综述与证据整合
 license: MIT
 compatibility: Requires a configured remote BGPT MCP connection and internet access to bgpt.pro. A stdio bridge additionally needs Node.js/npm. Paid access requires a BGPT API key configured as an Authorization header.

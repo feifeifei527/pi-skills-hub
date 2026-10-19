@@ -1,5 +1,5 @@
 ---
-name: theme-factory
+name: anthropic-theme-factory
 description: 为幻灯片、文档与 HTML 页面套用内置十款主题，或即时生成新配色方案
 license: Complete terms in LICENSE.txt
 ---

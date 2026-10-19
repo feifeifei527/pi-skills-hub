@@ -1,5 +1,5 @@
 ---
-name: cirq
+name: k-dense-cirq
 description: 用 Cirq 构建量子线路并面向 Google 量子硬件，含噪声建模与表征实验，适用于底层线路设计
 license: Apache-2.0 license
 compatibility: Requires Python 3.11+ and Cirq 1.7.0 for local examples. Cloud execution requires provider credentials, network access, and assigned targets. Azure uses a separate Cirq 1.6.1 environment.

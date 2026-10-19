@@ -1,5 +1,5 @@
 ---
-name: receiving-code-review
+name: superpowers-receiving-code-review
 description: 收到代码审查意见后逐条核对技术依据，避免盲从或表面认同再动手修改
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: paperzilla
+name: k-dense-paperzilla
 description: 用 pz 命令行读取 Paperzilla 项目与推荐流，获取论文详情、摘要与 JSON 导出
 license: MIT
 compatibility: Requires the pz CLI, network access, and a Paperzilla account with CLI access. Source builds require Go 1.23 or later.

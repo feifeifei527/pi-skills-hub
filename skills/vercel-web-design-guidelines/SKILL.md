@@ -1,5 +1,5 @@
 ---
-name: web-design-guidelines
+name: vercel-web-design-guidelines
 description: 按 Web Interface Guidelines 审查界面代码，检查可访问性、交互与设计规范
 metadata:
   author: vercel

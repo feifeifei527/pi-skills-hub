@@ -1,5 +1,5 @@
 ---
-name: autoskill
+name: k-dense-autoskill
 description: 分析 Screenpipe 历史窗口以发现重复研究流程并给出新技能草案，仅在用户明确要求分析近期工作时使用
 allowed-tools: Read Write Edit Bash
 license: MIT license

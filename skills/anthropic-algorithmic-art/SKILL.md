@@ -1,5 +1,5 @@
 ---
-name: algorithmic-art
+name: anthropic-algorithmic-art
 description: 用 p5.js 结合种子随机与参数交互创作生成艺术、流场或粒子系统作品
 license: Complete terms in LICENSE.txt
 ---

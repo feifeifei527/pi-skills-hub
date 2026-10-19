@@ -1,5 +1,5 @@
 ---
-name: simpy
+name: k-dense-simpy
 description: 用 SimPy 构建并分析有界离散事件仿真，处理事件调度、资源队列、中断、独立重复与可复现结果分析
 license: MIT
 compatibility: Upstream SimPy 4.1.2 supports Python 3.8+; bundled CLIs require Python 3.10+, uv, and SimPy 4.1.2. They use only SimPy and the standard library, operate on local bounded inputs, and make no network calls.

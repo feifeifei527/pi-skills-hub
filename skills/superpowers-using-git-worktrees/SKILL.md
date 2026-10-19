@@ -1,5 +1,5 @@
 ---
-name: using-git-worktrees
+name: superpowers-using-git-worktrees
 description: 开始需隔离的新功能开发前，用 git worktree 或原生工具建立独立工作区
 ---
 

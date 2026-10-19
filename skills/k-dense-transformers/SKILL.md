@@ -1,5 +1,5 @@
 ---
-name: transformers
+name: k-dense-transformers
 description: 用 Hugging Face Transformers 加载模型、运行 pipeline 推理与文本生成，并以 Trainer 微调多模态任务
 allowed-tools: Read Write Edit Bash
 license: Apache-2.0 license

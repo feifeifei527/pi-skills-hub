@@ -1,5 +1,5 @@
 ---
-name: pennylane
+name: k-dense-pennylane
 description: 构建可微分的 PennyLane 量子线路与混合 PyTorch、JAX 模型，做 VQE 与量子机器学习
 license: Apache-2.0 license
 compatibility: Requires Python 3.11+ and PennyLane 0.45.1 with NumPy 2+. Optional PyTorch, JAX or provider plugins need separate compatible environments. Local simulation needs no credentials; hardware requires provider credentials and network access.

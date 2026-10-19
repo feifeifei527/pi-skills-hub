@@ -1,5 +1,5 @@
 ---
-name: openpiv
+name: k-dense-openpiv
 description: 用 OpenPIV 从图像对提取速度场，做互相关、异常矢量替换与涡量、湍流统计
 license: BSD-3-Clause
 compatibility: Requires Python 3.10+ with openpiv installed (uv pip install openpiv). numpy, scipy, scikit-image, and matplotlib arrive as dependencies. No network access needed after install.

@@ -1,5 +1,5 @@
 ---
-name: writing-skills
+name: superpowers-writing-skills
 description: 创建新技能或修改已有技能，并在上线前验证技能是否真正生效
 ---
 

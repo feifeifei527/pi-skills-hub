@@ -1,5 +1,5 @@
 ---
-name: stable-baselines3
+name: k-dense-stable-baselines3
 description: 用 Stable Baselines3 训练评估单智能体强化学习，涵盖 PPO、SAC、DQN 等算法与自定义 Gymnasium 环境
 license: MIT license
 allowed-tools: Read Write Edit Bash

@@ -1,5 +1,5 @@
 ---
-name: webapp-testing
+name: anthropic-webapp-testing
 description: 用 Playwright 操作并测试本地 Web 应用，验证交互、抓取截图并查看浏览器日志
 license: Complete terms in LICENSE.txt
 ---

@@ -1,5 +1,5 @@
 ---
-name: molfeat
+name: k-dense-molfeat
 description: 用 Molfeat 为小分子生成指纹与描述符特征，服务 QSAR 建模、相似性检索与虚拟筛选
 license: Apache-2.0 license
 allowed-tools: Read Write Edit Bash

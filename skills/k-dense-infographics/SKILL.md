@@ -1,5 +1,5 @@
 ---
-name: infographics
+name: k-dense-infographics
 description: 通过 OpenRouter 调用 Nano Banana 2 生成信息图，用于统计摘要、时间线、对比与流程讲解
 compatibility: Requires Python 3.10+ with requests installed, network access, and OPENROUTER_API_KEY for generation, review, or research.
 allowed-tools: Read Write Edit Bash

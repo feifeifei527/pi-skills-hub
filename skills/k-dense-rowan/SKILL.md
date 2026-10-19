@@ -1,5 +1,5 @@
 ---
-name: rowan
+name: k-dense-rowan
 description: 通过 Python API 调用 Rowan 云平台做分子建模，涵盖 pKa 预测、构象与对接、共折叠、分子动力学与渗透性
 license: Proprietary (API key required)
 compatibility: Python 3.12+ with rowan-python and its RDKit/stjames dependencies. Requires network access and ROWAN_API_KEY for hosted workflows.

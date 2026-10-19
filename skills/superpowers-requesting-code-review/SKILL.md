@@ -1,5 +1,5 @@
 ---
-name: requesting-code-review
+name: superpowers-requesting-code-review
 description: 在完成任务、交付大功能或合并前发起代码审查，确认实现满足需求
 ---
 

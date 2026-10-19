@@ -1,5 +1,5 @@
 ---
-name: aeon
+name: k-dense-aeon
 description: 用 aeon 完成时间序列分类、回归、聚类、预测与异常检测，适用于时序数据建模与相似性检索
 license: BSD-3-Clause license
 allowed-tools: Read Write Edit Bash

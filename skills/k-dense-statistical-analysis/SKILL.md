@@ -1,5 +1,5 @@
 ---
-name: statistical-analysis
+name: k-dense-statistical-analysis
 description: 引导科研数据的统计分析，涵盖检验选择、假设检查、效应量、功效分析与 APA 格式的结果报告
 license: MIT license
 compatibility: Requires Python 3.12+ and the documented isolated scientific Python environment; network access only for installation and documentation.

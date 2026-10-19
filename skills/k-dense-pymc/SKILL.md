@@ -1,5 +1,5 @@
 ---
-name: pymc
+name: k-dense-pymc
 description: 用 PyMC 构建并检验贝叶斯模型，涵盖层次模型、NUTS 采样、变分推断、后验预测检查与 PSIS-LOO 比较
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.12+ with PyMC 6.3.2, PyTensor 3.3.2 and ArviZ 1.3-compatible dependencies; NumPy, pandas, Matplotlib, h5netcdf and h5py for bundled helpers/artifacts. Network access for installation only. Optional nutpie, NumPyro and BlackJAX samplers need separate dependencies.

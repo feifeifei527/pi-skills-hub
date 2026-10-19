@@ -1,5 +1,5 @@
 ---
-name: scikit-learn
+name: k-dense-scikit-learn
 description: 用 scikit-learn 完成监督与无监督学习、模型评估、超参数调优与预处理，构建机器学习流水线
 license: BSD-3-Clause license
 allowed-tools: Read Write Edit Bash

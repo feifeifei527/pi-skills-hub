@@ -1,5 +1,5 @@
 ---
-name: pycalphad
+name: k-dense-pycalphad
 description: 用 pycalphad 从热力学 TDB 数据库计算有限温度相平衡、相分数与相组成
 license: MIT
 compatibility: Requires Python 3.12+, pycalphad 0.11.2, and NumPy. Installation needs network access; calculations run locally without credentials. Real-material predictions require a suitable licensed thermodynamic database.

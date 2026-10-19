@@ -1,5 +1,5 @@
 ---
-name: umap-learn
+name: k-dense-umap-learn
 description: 用 UMAP-learn 做非线性降维与二三维嵌入，支持聚类预处理、半监督 UMAP、DensMAP 与参数化 UMAP
 license: BSD-3-Clause license
 compatibility: Requires Python 3.9+ and umap-learn; optional HDBSCAN, Matplotlib, and TensorFlow with Keras 3. Network access is needed for installation, not local fitting.

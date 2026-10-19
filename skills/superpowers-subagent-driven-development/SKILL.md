@@ -1,5 +1,5 @@
 ---
-name: subagent-driven-development
+name: superpowers-subagent-driven-development
 description: 用子代理分批执行含独立任务的实现计划，控制上下文长度与并行度
 ---
 

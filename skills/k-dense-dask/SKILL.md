@@ -1,5 +1,5 @@
 ---
-name: dask
+name: k-dense-dask
 description: 用 Dask 把 pandas、NumPy 与自写流程扩展到超内存或集群规模，适用于分块文件处理与并行数组计算
 allowed-tools: Read Write Edit Bash
 license: BSD-3-Clause license

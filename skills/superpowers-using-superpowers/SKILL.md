@@ -1,5 +1,5 @@
 ---
-name: using-superpowers
+name: superpowers-using-superpowers
 description: 对话开始时确定如何检索并调用技能，确保回答任何内容前先加载匹配技能
 ---
 

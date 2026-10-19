@@ -1,5 +1,5 @@
 ---
-name: vercel-optimize
+name: vercel-vercel-optimize
 description: 定位 Vercel 部署项目的成本与性能瓶颈，按指标排序列出可落地的优化建议
 metadata:
   version: "1.2.0"

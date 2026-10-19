@@ -1,5 +1,5 @@
 ---
-name: uncertainty-and-units
+name: k-dense-uncertainty-and-units
 description: 用 pint 与 uncertainties 管理物理单位并传播测量不确定度，涵盖 GUM 预算、蒙特卡洛传播与量纲检查
 license: MIT
 compatibility: Requires Python 3.12+. The numeric CLIs need pint, uncertainties, NumPy, and SciPy; the static auditor is standard-library only. All bundled tooling runs locally with no network access.

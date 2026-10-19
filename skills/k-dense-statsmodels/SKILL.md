@@ -1,5 +1,5 @@
 ---
-name: statsmodels
+name: k-dense-statsmodels
 description: 用 statsmodels 拟合与诊断统计模型，涵盖 OLS、GLM、离散与混合模型、ARIMA 及时间序列预测
 allowed-tools: Read Write Edit Bash
 compatibility: Requires Python 3.10+ and statsmodels 0.15.0; the tested NumPy 2.5.3/SciPy 1.18.1 stack needs Python 3.12+. Plotting needs matplotlib; predictive metrics need scikit-learn. Network access is needed only for installation or documentation; no credentials.

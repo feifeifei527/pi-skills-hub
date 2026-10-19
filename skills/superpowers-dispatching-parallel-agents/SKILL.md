@@ -1,5 +1,5 @@
 ---
-name: dispatching-parallel-agents
+name: superpowers-dispatching-parallel-agents
 description: 把两个以上互不依赖的任务分派给并行子代理，无共享状态时可同时推进
 ---
 

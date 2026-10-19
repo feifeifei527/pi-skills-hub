@@ -1,5 +1,5 @@
 ---
-name: pybamm
+name: k-dense-pybamm
 description: 用 PyBaMM 模拟锂离子电池充放电与静置，记录参数来源并比对实测电压曲线
 license: MIT
 compatibility: Requires Python 3.12 with PyBaMM 26.9.0.0 and pybammsolvers 0.10.0 (IDAKLU). NumPy and CasADi are supplied by PyBaMM. Network is needed for installation and optional upstream dataset retrieval; bundled simulations and CSV comparisons run locally without credentials.

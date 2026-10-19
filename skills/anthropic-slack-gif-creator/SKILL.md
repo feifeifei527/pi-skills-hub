@@ -1,5 +1,5 @@
 ---
-name: slack-gif-creator
+name: anthropic-slack-gif-creator
 description: 生成适合 Slack 的动图 GIF，提供尺寸约束、校验工具与动画创意参考
 license: Complete terms in LICENSE.txt
 ---

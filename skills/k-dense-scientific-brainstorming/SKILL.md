@@ -1,5 +1,5 @@
 ---
-name: scientific-brainstorming
+name: k-dense-scientific-brainstorming
 description: 组织证据感知的科研选题讨论，独立生成想法、显式假设、透明评估与对抗式审查，并输出决策记录
 license: MIT
 compatibility: Core guidance works in any Agent Skills-compatible host. Optional bundled CLIs require Python 3.11+ and use only the standard library; they make no network or LLM calls and require no credentials.

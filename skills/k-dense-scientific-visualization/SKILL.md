@@ -1,5 +1,5 @@
 ---
-name: scientific-visualization
+name: k-dense-scientific-visualization
 description: 用 Matplotlib、Seaborn 或 Plotly 制作符合发表要求且可访问的科研图，涵盖多面板布局与不确定性展示
 license: MIT
 compatibility: Requires Python 3.11+ and uv for pinned examples. Bundled CLIs are network-free and load Matplotlib, Pillow, or pypdf only when needed. Plotly static export with Kaleido v1 requires a compatible Chrome/Chromium installation.

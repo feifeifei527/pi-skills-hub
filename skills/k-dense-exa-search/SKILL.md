@@ -1,5 +1,5 @@
 ---
-name: exa-search
+name: k-dense-exa-search
 description: 用 Exa 检索科技网页并批量提取页面或 PDF 文本，支持学术分类与域名过滤，适用于文献发现
 compatibility: Requires Python 3.11+, exa-py>=2.23.0,<3, an EXA_API_KEY, and internet access.
 license: MIT

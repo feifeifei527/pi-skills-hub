@@ -1,5 +1,5 @@
 ---
-name: finishing-a-development-branch
+name: superpowers-finishing-a-development-branch
 description: 实现完成且测试全部通过后，决定分支合并、变基或清理等收尾方式
 ---
 

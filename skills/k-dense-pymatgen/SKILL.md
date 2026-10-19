@@ -1,5 +1,5 @@
 ---
-name: pymatgen
+name: k-dense-pymatgen
 description: 用 pymatgen 分析、校验与转换材料结构及计算数据，适用于相图、对称性敏感度与 Materials Project 查询
 license: MIT
 compatibility: Python 3.11+ with uv. The verified snapshot uses pymatgen 2026.9.24, pymatgen-core 2026.9.23, and mp-api 0.46.5. Bundled help and planning CLIs use only the standard library; local scientific execution lazily requires the pinned pymatgen packages. Materials Project access additionally requires explicit network approval and the single named secret MP_API_KEY.

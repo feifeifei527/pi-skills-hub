@@ -1,5 +1,5 @@
 ---
-name: skill-creator
+name: anthropic-skill-creator
 description: 从零创建技能或优化已有技能，运行评测并按方差分析改进描述触发准确率
 ---
 

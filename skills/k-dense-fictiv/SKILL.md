@@ -1,5 +1,5 @@
 ---
-name: fictiv
+name: k-dense-fictiv
 description: 在浏览器中完成 Fictiv 定制零件制造全流程，含上传 CAD、配置工艺与公差、报价、下单与跟踪订单
 license: MIT
 compatibility: Needs network access, a browser-automation tool, and the user's logged-in Fictiv account at app.fictiv.com. The optional DOM helpers need browser JavaScript execution; the local CAD pre-flight script needs Python 3.10+ (standard library only).

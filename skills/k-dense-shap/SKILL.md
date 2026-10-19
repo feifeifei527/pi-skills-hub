@@ -1,5 +1,5 @@
 ---
-name: shap
+name: k-dense-shap
 description: 用 SHAP 解释并审计机器学习预测，选择解释器与掩码器，计算校验特征归因，输出局部或全局图
 license: MIT
 compatibility: Requires Python 3.12+ and uv for SHAP 0.52.0; model-specific libraries are optional.

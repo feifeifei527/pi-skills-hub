@@ -1,5 +1,5 @@
 ---
-name: liteparse
+name: k-dense-liteparse
 description: 本地解析 PDF、DOCX 与图像，输出带坐标文本、Markdown 与页面图，便于检索与 RAG
 license: Apache-2.0
 allowed-tools: Read Write Edit Bash

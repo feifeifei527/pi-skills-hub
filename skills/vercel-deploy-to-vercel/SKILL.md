@@ -1,5 +1,5 @@
 ---
-name: deploy-to-vercel
+name: vercel-deploy-to-vercel
 description: 把应用或网站部署到 Vercel，生成线上地址或预览部署并回传链接
 metadata:
   author: vercel

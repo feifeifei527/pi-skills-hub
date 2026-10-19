@@ -1,5 +1,5 @@
 ---
-name: markitdown
+name: k-dense-markitdown
 description: 用 Microsoft MarkItDown 把 Office、PDF 等杂乱文档与链接转成 Markdown，服务文本检索与 RAG 摄取
 license: MIT
 compatibility: Python >=3.10,<3.15 and uv. Examples target MarkItDown 0.1.8. Core local conversion can run offline; URL, YouTube, audio transcription, LLM, Azure, and MCP workflows may use network or external services.

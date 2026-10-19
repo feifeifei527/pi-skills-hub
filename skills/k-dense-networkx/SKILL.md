@@ -1,5 +1,5 @@
 ---
-name: networkx
+name: k-dense-networkx
 description: 用 NetworkX 构建、分析和可视化网络图，计算最短路径、中心性、社区与合成网络
 license: 3-clause BSD license
 compatibility: Requires Python >=3.12 (excluding 3.14.1) and NetworkX 3.7. NumPy, SciPy, pandas and Matplotlib support numerical, tabular and drawing examples; optional integrations need their own packages. No credentials; network needed only for installation or remote data.

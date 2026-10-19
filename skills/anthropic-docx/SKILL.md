@@ -1,5 +1,5 @@
 ---
-name: docx
+name: anthropic-docx
 description: 创建、读取与编辑 Word 的 DOCX 与 DOTX 文件，处理目录、表格、修订与批注
 license: Proprietary. LICENSE.txt has complete terms
 ---

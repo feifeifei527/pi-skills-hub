@@ -1,5 +1,5 @@
 ---
-name: torch-geometric
+name: k-dense-torch-geometric
 description: 用 PyTorch Geometric 构建图神经网络，涵盖节点、链接与图分类、消息传递、异构图与邻居采样
 license: MIT license
 compatibility: Requires Python 3.10+, PyTorch 2.9+, and torch-geometric 2.8.0.post1. Optional pyg-lib, torch-scatter and torch-sparse wheels must match Python, OS, PyTorch and CUDA/CPU. Network access is needed only for installation and dataset/model downloads.

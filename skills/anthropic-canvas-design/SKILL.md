@@ -1,5 +1,5 @@
 ---
-name: canvas-design
+name: anthropic-canvas-design
 description: 以设计理念制作海报、静态艺术作品等 PNG 与 PDF 视觉成品
 license: Complete terms in LICENSE.txt
 ---

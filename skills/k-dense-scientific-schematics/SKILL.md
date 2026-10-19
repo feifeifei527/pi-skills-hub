@@ -1,5 +1,5 @@
 ---
-name: scientific-schematics
+name: k-dense-scientific-schematics
 description: 借助 AI 生成科研示意图并按评审意见迭代改进，适用于神经网络结构、系统图、流程图与生物通路
 allowed-tools: Read Write Edit Bash
 license: MIT license

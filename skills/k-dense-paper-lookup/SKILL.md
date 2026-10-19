@@ -1,5 +1,5 @@
 ---
-name: paper-lookup
+name: k-dense-paper-lookup
 description: 检索 PubMed、arXiv、OpenAlex 等 18 个学术接口，返回带可复现来源的论文与全文
 allowed-tools: Read Bash
 license: MIT

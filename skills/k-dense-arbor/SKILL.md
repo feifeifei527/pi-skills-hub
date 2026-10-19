@@ -1,5 +1,5 @@
 ---
-name: arbor
+name: k-dense-arbor
 description: 以 Arbor 假设树组织多轮实验，含持久假设、隔离实验与留出比较，适用于模型训练与基准优化研究
 allowed-tools: Read Write Edit Bash Agent
 license: MIT license

@@ -1,5 +1,5 @@
 ---
-name: open-notebook
+name: k-dense-open-notebook
 description: 用自托管 Open Notebook 管理研究资料，做带引用的文档问答、检索、笔记与播客生成
 license: MIT
 compatibility: Requires a running Open Notebook backend and worker; Python 3.11+ with requests for bundled helpers. Docker Compose is the documented deployment option. Network access to the instance and any configured providers is required.

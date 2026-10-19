@@ -1,5 +1,5 @@
 ---
-name: pptx
+name: anthropic-pptx
 description: 创建、解析或编辑 PPTX 与 POTX 演示文稿，处理版式、讲稿备注与模板
 license: Proprietary. LICENSE.txt has complete terms
 ---

@@ -1,5 +1,5 @@
 ---
-name: claude-api
+name: anthropic-claude-api
 description: 在写调用 Claude API 或 Anthropic SDK 的代码前查阅模型、定价、参数、流式与缓存参考
 license: Complete terms in LICENSE.txt
 ---

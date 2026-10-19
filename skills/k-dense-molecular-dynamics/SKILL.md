@@ -1,5 +1,5 @@
 ---
-name: molecular-dynamics
+name: k-dense-molecular-dynamics
 description: 用 OpenMM 与 MDAnalysis 搭建并运行分子动力学模拟，分析轨迹、接触图与自由能面
 license: MIT
 compatibility: Requires Python 3.11+ with OpenMM and MDAnalysis; matplotlib for plots. Optional PDBFixer and OpenFF need separate installation. Network access for installation; local simulation and analysis run offline.

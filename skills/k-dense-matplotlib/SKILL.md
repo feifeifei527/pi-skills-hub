@@ -1,5 +1,5 @@
 ---
-name: matplotlib
+name: k-dense-matplotlib
 description: 用 Matplotlib 精细定制科学图表并导出 PNG、PDF、SVG，适合出版级绘图与自定义图型
 allowed-tools: Read Write Bash
 license: https://github.com/matplotlib/matplotlib/tree/main/LICENSE

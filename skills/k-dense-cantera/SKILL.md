@@ -1,5 +1,5 @@
 ---
-name: cantera
+name: k-dense-cantera
 description: 用 Cantera 运行均相反应器并评估点火延迟，含机理溯源与守恒校验，适用于燃烧动力学与绝热着火模拟
 license: MIT
 compatibility: Requires Python 3.12-3.14, Cantera 3.2.0, and NumPy. Installation needs network access; simulations run locally without credentials. Custom mechanisms must be available as Cantera YAML files.

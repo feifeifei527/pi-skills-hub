@@ -1,5 +1,5 @@
 ---
-name: mcp-builder
+name: anthropic-mcp-builder
 description: 用 Python 或 TypeScript 构建高质量 MCP 服务器，把外部 API 封装成可调用工具
 license: Complete terms in LICENSE.txt
 ---

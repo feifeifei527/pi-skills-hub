@@ -1,5 +1,5 @@
 ---
-name: qiskit
+name: k-dense-qiskit
 description: 用 Qiskit 与 IBM Quantum Runtime 构建、模拟、转译并执行量子线路，涵盖 Sampler、Estimator 与误差缓解
 license: Apache-2.0
 compatibility: Python 3.10+ on a supported 64-bit platform. Local SDK workflows need qiskit; noisy simulation needs qiskit-aer; IBM QPU access needs qiskit-ibm-runtime, network access, an IBM Quantum Platform account, and an API key.

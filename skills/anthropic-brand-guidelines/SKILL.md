@@ -1,5 +1,5 @@
 ---
-name: brand-guidelines
+name: anthropic-brand-guidelines
 description: 为各类交付物套用 Anthropic 官方配色与字体，符合品牌视觉规范
 license: Complete terms in LICENSE.txt
 ---

@@ -1,5 +1,5 @@
 ---
-name: pyzotero
+name: k-dense-pyzotero
 description: 用 pyzotero 经 Zotero Web API 管理文献库，检索与增删改条目、合集、标签，并导出引文、上传 PDF 附件
 allowed-tools: Read Write Edit Bash
 license: MIT License

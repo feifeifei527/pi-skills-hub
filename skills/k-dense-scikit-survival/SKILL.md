@@ -1,5 +1,5 @@
 ---
-name: scikit-survival
+name: k-dense-scikit-survival
 description: 用 scikit-survival 构建并审计右删失与竞争风险生存分析流程，涵盖防泄漏预处理与删失感知指标
 license: MIT
 compatibility: Requires Python 3.11+, uv, and the pinned scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and network-free by default.

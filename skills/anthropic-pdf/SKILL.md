@@ -1,5 +1,5 @@
 ---
-name: pdf
+name: anthropic-pdf
 description: 读取、合并、拆分、旋转、加水印与 OCR PDF，也可填写表单或新建文档
 license: Proprietary. LICENSE.txt has complete terms
 ---

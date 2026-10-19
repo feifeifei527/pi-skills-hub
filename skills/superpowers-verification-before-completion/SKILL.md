@@ -1,5 +1,5 @@
 ---
-name: verification-before-completion
+name: superpowers-verification-before-completion
 description: 宣称完成、修复或通过前先运行验证命令并核对输出，用证据替代断言
 ---
 

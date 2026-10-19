@@ -1,5 +1,5 @@
 ---
-name: discernment-nudge
+name: anthropic-discernment-nudge
 description: 在给出可能被采纳的结论后附上两三条追问，帮助用户核查事实、假设与遗漏
 license: Complete terms in LICENSE.txt
 ---

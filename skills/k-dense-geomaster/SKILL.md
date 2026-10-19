@@ -1,5 +1,5 @@
 ---
-name: geomaster
+name: k-dense-geomaster
 description: 支持遥感、矢量与栅格 GIS、空间统计与地球观测机器学习流程，适用于影像处理与坐标栅格对齐
 license: MIT License
 compatibility: Core examples require Python 3.12+ and GeoPandas, Rasterio, NumPy and PyProj. Optional workflows require their named packages, native GIS applications, GPU runtimes, or service credentials and network access.

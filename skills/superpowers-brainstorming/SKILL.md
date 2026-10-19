@@ -1,5 +1,5 @@
 ---
-name: brainstorming
+name: superpowers-brainstorming
 description: 任何创作或开发前先做需求澄清与方案发散，通过提问收敛想法再进入实现
 ---
 

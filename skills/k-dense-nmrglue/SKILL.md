@@ -1,5 +1,5 @@
 ---
-name: nmrglue
+name: k-dense-nmrglue
 description: 用 nmrglue 处理一维复 NMR 自由感应衰减，完成相位校正、基线校正与谱峰积分
 license: MIT
 compatibility: Requires Python 3.12+, nmrglue, NumPy 2+, and SciPy. Installation needs network access; processing is local and needs no credentials.

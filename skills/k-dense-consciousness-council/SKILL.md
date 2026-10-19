@@ -1,5 +1,5 @@
 ---
-name: consciousness-council
+name: k-dense-consciousness-council
 description: 组织多视角议事流程，区分证据、假设与价值并给出条件式建议，适用于难题权衡与决策讨论
 license: MIT license
 metadata:

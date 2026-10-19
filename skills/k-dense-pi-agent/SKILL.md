@@ -1,5 +1,5 @@
 ---
-name: pi-agent
+name: k-dense-pi-agent
 description: 安装配置 Pi 终端编码工具，编写技能、扩展与主题，并通过 SDK、RPC 或本地模型集成
 license: MIT
 compatibility: Requires Node.js >= 22.19 and npm for Pi CLI and SDK usage. Pi package name is @earendil-works/pi-coding-agent.
