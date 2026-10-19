@@ -18,15 +18,15 @@ pi-web-ui 的市场一次只能填 **一个** 仓库，且只把仓库 `skills/`
 | `superpowers-` | [obra/superpowers](https://github.com/obra/superpowers) | 15 | 系统排错、完成前验证、代码审查、TDD、规划 |
 | `anthropic-` | [anthropics/skills](https://github.com/anthropics/skills) | 19 | PDF / PPTX / DOCX / XLSX、skill-creator、前端设计 |
 | `vercel-` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | 9 | React 性能、界面规范、部署 |
-| `k-dense-` | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 177 | 科研与 RL：Stable-Baselines3、文献综述、科研绘图等 |
+| `k-dense-` | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 95 / 177 | 科研与 RL：Stable-Baselines3、文献综述、科研绘图（82 个生物/医学技能已排除，见 `sources.json` 的 `exclude`） |
 
-合计 **220** 个技能，清单见 `MANIFEST.json`，来源配置见 `sources.json`。
+合计 **138** 个技能（已按 `sources.json` 的 `exclude` 排除 82 个生物/医学类技能），清单见 `MANIFEST.json`，来源配置见 `sources.json`。
 
 ## 在 pi-web-ui 里使用
 
 1. 设置 → 技能 → 技能市场
 2. 「GitHub 仓库源」选 **自定义 GitHub 仓库 (owner/repo)**，填 `feifeifei527/pi-skills-hub`
-3. 点「重新加载」→ 220 个技能可搜索（中文关键词直接搜，例如「文献综述」「调试」「PPT」）
+3. 点「重新加载」→ 138 个技能可搜索（中文关键词直接搜，例如「文献综述」「调试」「PPT」）
 
 ## 重新同步上游
 

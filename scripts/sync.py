@@ -88,7 +88,13 @@ def rebuild(offline: bool, install_local: bool) -> int:
         skills_dir = root / subdir
         if not skills_dir.is_dir():
             sys.exit(f"{repo} 下没有 {subdir}/ 目录，检查 sources.json")
-        names = sorted(d for d in os.listdir(skills_dir) if (skills_dir / d).is_dir())
+        excluded = set(lib.get("exclude") or [])
+        names = sorted(
+            d for d in os.listdir(skills_dir)
+            if (skills_dir / d).is_dir() and d not in excluded
+        )
+        if excluded:
+            print(f"  按 sources.json 排除 {len(excluded)} 个")
         ids: list[str] = []
         for name in names:
             if not (skills_dir / name / "SKILL.md").exists():
