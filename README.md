@@ -1,5 +1,7 @@
 # pi-skills-hub
 
+> 市场里用的仓库：**`feifeifei527/pi-skills-hub`**（分支 `master`）
+
 把多个上游 Agent Skill 库**聚合成一个可检索的仓库**，专门给 [pi-web-ui](https://github.com/xing-shuyin/pi-web-ui)
 的技能市场（设置 → 技能 → 技能市场 → GitHub 仓库源）用。
 
@@ -21,18 +23,35 @@ pi-web-ui 的市场一次只能填 **一个** 仓库，且只把仓库 `skills/`
 ## 在 pi-web-ui 里使用
 
 1. 设置 → 技能 → 技能市场
-2. 「GitHub 仓库源」选 **自定义 GitHub 仓库 (owner/repo)**，填 `<你的用户名>/pi-skills-hub`
+2. 「GitHub 仓库源」选 **自定义 GitHub 仓库 (owner/repo)**，填 `feifeifei527/pi-skills-hub`
 3. 点「重新加载」→ 220 个技能可搜索（中文关键词直接搜，例如「文献综述」「调试」「PPT」）
 
 ## 重新同步上游
 
 ```bash
 python3 scripts/sync.py                 # 重新下载四个库并重建 skills/
-python3 scripts/sync.py --install-local # 额外同步到 ~/.pi/agent/skills（完整目录，立即可用）
+python3 scripts/sync.py --install-local # 顺手把 220 个全部装进 ~/.pi/agent/skills（慎用，见下）
 ```
 
 同步流程：下载 tarball → 平铺复制（跳过 >8MB 的单文件，见 `MANIFEST.json`）→
 按 `scripts/zh/*.json` 把 `description` 改成中文 → 可选地复制到本机技能目录。
+
+## 按需安装（建议用法）
+
+**默认一个都不常驻**：pi 会把 `~/.pi/agent/skills/` 下所有技能的
+`name + description + 路径` 塞进每次请求的系统提示词，220 个约 43k 字符（≈2 万 tokens）。
+所以只装当下要用的：
+
+```bash
+python3 scripts/install.py --list                # 全部技能 + 中文介绍
+python3 scripts/install.py --list k-dense        # 只看科研库
+python3 scripts/install.py k-dense-qiskit anthropic-pdf   # 完整安装（带附属文件）
+python3 scripts/install.py --remove k-dense-qiskit         # 不用了就卸掉
+python3 scripts/install.py --project ~/proj k-dense-matplotlib  # 装到项目 .pi/skills
+```
+
+在市场面板点「全局安装」也可以，但它**只写 SKILL.md**，不带 `scripts/`、`references/`、
+模板等附属文件；依赖这些文件的技能（docx/xlsx、大部分 K-Dense 技能）请用上面的脚本。
 
 ## 中文描述
 

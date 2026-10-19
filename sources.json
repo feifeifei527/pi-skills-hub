@@ -1,6 +1,6 @@
 {
   "_comment": "pi-web-ui 技能市场的聚合源；每个 repo 的技能目录会被平铺到 skills/<prefix>-<skill>/",
-  "market_repo": "REPLACE_WITH_OWNER/pi-skills-hub",
+  "market_repo": "feifeifei527/pi-skills-hub",
   "libraries": [
     {
       "prefix": "superpowers",
