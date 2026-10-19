@@ -1,0 +1,50 @@
+name: sync-upstream
+
+# 每周一 03:00 UTC（北京时间 11:00）拉一次上游；也可手动触发
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 拉取四个上游并重建 skills/
+        run: python3 scripts/sync.py
+
+      - name: 校验（缺中文只警告，PR 里的 validate 会拦）
+        run: python3 scripts/validate.py
+
+      - name: 有变化则开 PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "上游无变化，跳过"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="sync/upstream-$(date -u +%Y%m%d)"
+          git checkout -b "$branch"
+          git add -A
+          git commit -m "chore: 同步上游技能库 $(date -u +%F)"
+          git push -u origin "$branch"
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "chore: 同步上游 $(date -u +%F)" \
+            --body "$(printf '自动同步四个上游技能库。\n\n- 新技能会先以英文 description 落地，`validate (strict-zh)` 会因此变红。\n- 把新 id 补进 `scripts/zh/*.json` 后重新跑 `python3 scripts/sync.py` 即可转中文。\n\n合并前请检查技能数量变化与此 PR 的 diff。\n')"

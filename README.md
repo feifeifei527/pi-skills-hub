@@ -1,6 +1,8 @@
 # pi-skills-hub
 
-> 市场里用的仓库：**`feifeifei527/pi-skills-hub`**（分支 `master`）
+> 市场里用的仓库：**`feifeifei527/pi-skills-hub`**（分支 `main`）
+>
+> [![validate](https://github.com/feifeifei527/pi-skills-hub/actions/workflows/validate.yml/badge.svg)](https://github.com/feifeifei527/pi-skills-hub/actions/workflows/validate.yml)
 
 把多个上游 Agent Skill 库**聚合成一个可检索的仓库**，专门给 [pi-web-ui](https://github.com/xing-shuyin/pi-web-ui)
 的技能市场（设置 → 技能 → 技能市场 → GitHub 仓库源）用。
@@ -68,6 +70,29 @@ python3 scripts/install.py --project ~/proj k-dense-matplotlib  # 装到项目 .
 - 技能 id 必须匹配 `^[a-zA-Z0-9_-]+$`（pi-web-ui 的安装校验），所以目录名保持英文；
   中文只出现在介绍与检索里。
 - 上游改动后 GitHub API 有 1 小时缓存，市场里点「重新加载」可强制刷新。
+
+## 自动化
+
+| 工作流 | 触发 | 作用 |
+| --- | --- | --- |
+| `validate` | push / PR 到 `main` | `scripts/validate.py --strict-zh`：id 规则、前缀、单行中文 description、8MB 体积上限、MANIFEST 一致性 |
+| `sync-upstream` | 每周一 03:00 UTC + 手动 | 重跑 `scripts/sync.py`，有变化就开 PR（新技能英文描述会让 `validate` 变红，补齐 `scripts/zh/*.json` 后转绿） |
+
+本地等价命令：
+
+```bash
+python3 scripts/validate.py --strict-zh   # 提交前自检
+gh workflow run sync-upstream             # 立即跑一次同步
+```
+
+## 常驻建议
+
+不常驻任何技能（每个技能都会进每次请求的系统提示词）。当前常用组合（5 个技能，约 1.2k 字符 ≈ 530 tokens）：
+
+```bash
+python3 scripts/install.py k-dense-stable-baselines3 k-dense-literature-review \
+  k-dense-citation-management k-dense-matplotlib k-dense-statistical-analysis
+```
 
 ## 许可
 

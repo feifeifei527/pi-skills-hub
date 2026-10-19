@@ -1,0 +1,22 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # 结构 + id 前缀 + 8MB 体积上限 + MANIFEST 一致性；--strict-zh 保证每条 description 都是中文
+      - name: 校验聚合仓库
+        run: python3 scripts/validate.py --strict-zh
